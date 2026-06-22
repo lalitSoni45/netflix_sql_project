@@ -16,7 +16,7 @@
            FROM netflix 
      	   GROUP BY type,rating 
      	  )
-     WHERE rn=1
+     WHERE rn=1;
                           -- OR --
 
 	  SELECT type, 
@@ -53,8 +53,7 @@
       LIMIT 5;	  
 		  
 -- 5. Identify the longest movie or TV show duration
-    SELECT * FROM netflix;
-	
+
     SELECT 
            MAX(
 		     CASE 
@@ -105,7 +104,7 @@
        SELECT  title,director
 	   FROM netflix
 	   WHERE director 
-	   ILIKE '%Rajiv Chilaka%'
+	   ILIKE '%Rajiv Chilaka%';
 
  
 -- 8. List all TV shows with more than 5 seasons
@@ -152,7 +151,7 @@
 	   listed_in 
     FROM netflix
     WHERE type='Movie' AND listed_in 
-	ILIKE '%Documentaries%'
+	ILIKE '%Documentaries%';
 
 
 -- 12. Find all content without a director
