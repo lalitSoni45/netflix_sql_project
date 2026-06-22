@@ -1,5 +1,7 @@
 # Netflix SQL Data Analysis Project
 
+![Netflix Logo](https://github.com/lalitSoni45/netflix_sql_project/blob/main/logo.jpg)
+
 ## Overview
 This project contains SQL analysis performed on the Netflix Titles dataset using PostgreSQL.
 
