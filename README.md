@@ -5,6 +5,12 @@ This project contains SQL analysis performed on the Netflix Titles dataset using
 
 ## Files
 
+📊 Dataset:
+- [netflix_titles.csv](./netflix_titles.csv)
+
+📝 SQL Solutions:
+- [solutions.sql](./solutions.sql)
+  
 ### netflix_titles.csv
 Dataset containing Netflix movies and TV shows information.
 
